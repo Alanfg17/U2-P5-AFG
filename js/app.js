@@ -1,5 +1,5 @@
 if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register('/U2-P5-AFG/sw.js')
 }
 /*
 
