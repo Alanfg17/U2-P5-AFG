@@ -24,13 +24,13 @@ self.addEventListener('install', (event) => {
   const promesaCache = caches.open(CACHE_STATIC_NAME)
     .then(cache => {
       return cache.addAll([
-        '/',
-        'index.html',
-        'css/page.css',
-        'images/inicio.jpg',
-        'js/app.js',
-        'pages/ViewOffline.html',
-        'images/notfound.jpg',
+        '/U2-P5-AFG/',
+        '/U2-P5-AFG/index.html',
+        '/U2-P5-AFG/css/page.css',
+        '/U2-P5-AFG/images/inicio.jpg',
+        '/U2-P5-AFG/js/app.js',
+        '/U2-P5-AFG/pages/ViewOffline.html',
+        '/U2-P5-AFG/images/notfound.jpg',
       ]);
     });
 
