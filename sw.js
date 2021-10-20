@@ -103,11 +103,11 @@ self.addEventListener("fetch", (event) => {
         }).catch((err) => {
           console.log('Error al solicitar el recurso');
           if (event.request.headers.get('accept').includes('text/html')) {
-            return caches.match('/pages/ViewOffline.html')
+            return caches.match('/U2-P5-AFG/pages/ViewOffline.html')
           }
 
           if (event.request.headers.get('accept').includes('image')) {
-            return caches.match('/images/notfound.jpg')
+            return caches.match('/U2-P5-AFG/images/notfound.jpg')
           }
 
         })
